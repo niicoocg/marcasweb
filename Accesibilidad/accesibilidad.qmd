@@ -1,0 +1,88 @@
+---
+title: "Accesibilidad"
+author: "José Ángel Heras"
+format: 
+  revealjs:
+    theme: moon
+    highlight: pygments
+    center: true
+    transition: slide ## fade
+    tox: true
+    footer: "Desarrollo WEB - Accesibilidad"
+---
+
+## Accesibilidad digital
+
+**La accesibilidad** es un aspecto esencial en el proceso de crear un sitio web (o cualquier producto digital).
+
+> El objetivo es conseguir que todas las personas puedan acceder al contenido, independientemente de sus capacidades o discapacidades, o de las circunstancias de uso, sean estas ambientales, técnicas, de software o de hardware.
+
+---
+
+## Puntos principales de verificación WEB
+
+---
+
+### Texto alternativo para imágenes
+
+> Es una buena práctica encargarse de que todas las imágenes tengan un texto alternativo que describa la imagen de manera clara y concisa. Esto es especialmente importante para las personas con discapacidades visuales que utilizan tecnología de asistencia para navegar por la web.
+
+```html
+<img src="laptop_1"
+     alt="Fotografía de un laptop 
+mostrando un entorno de programación"
+     width="300" height="450">
+```
+
+---
+
+### Etiquetas de título y encabezados
+
+> El uso de etiquetas de título y encabezados de manera adecuada (y en orden jerárquico) ayuda a que los usuarios puedan comprender la estructura de la página y navegar por ella de manera más eficiente.
+
+---
+
+### Contraste de colores
+
+> Es necesario que tenga (o que se pueda activar) un alto contraste entre el texto y el fondo, de manera que sea fácil de leer para todas las personas, especialmente para aquellas con discapacidades visuales.
+
+---
+
+### Teclado accesible
+
+> Hay que tener en cuenta la *navegación completa mediante el teclado*, esencial para las personas que no pueden utilizar un mouse o un ratón. Hay que prestar especial atención si la página tiene [tablas](https://www.w3.org/WAI/ARIA/apg/patterns/grid/examples/data-grids/) o [formularios](https://www.w3.org/WAI/ARIA/apg/patterns/landmarks/examples/form.html).
+
+Claves en `html/css`: [`tabindex`](https://developer.mozilla.org/es/docs/Web/HTML/Global_attributes/tabindex) y [`focus`](https://developer.mozilla.org/es/docs/Web/CSS/:focus)
+
+---
+
+### Descripciones de enlaces
+
+> Proporciona descripciones claras y concisas de los enlaces, para que los usuarios puedan comprender a dónde los llevará cada enlace antes de hacer clic en él.
+
+```html
+<a href="https://www.w3schools.com/tags/tag_title.asp"
+   title="Etiqueta <title> en HTML">Detalles en W3Schools</a>
+```
+
+---
+
+## Herramientas gratuitas de auditoría
+
+---
+
+[Google Lighthouse](https://developers.google.com/web/tools/lighthouse): Una herramienta gratuita y de código abierto de Google que analiza la calidad de un sitio web en varios aspectos, incluida la accesibilidad.
+
+[WAVE Web Accessibility Evaluation Tool](https://wave.webaim.org/): Una herramienta gratuita y de código abierto de WebAIM que proporciona una evaluación detallada de la accesibilidad de un sitio web.
+
+---
+
+[Siteimprove Accessibility Checker](https://chrome.google.com/webstore/detail/siteimprove-accessibility/efcfolpjihicnikpmhnmphjhhpiclljc): Una extensión de navegador gratuita que analiza la accesibilidad de un sitio web en tiempo real y ofrece sugerencias de corrección.
+
+[Axe Accessibility Testing Engine](https://www.deque.com/axe/): Una herramienta gratuita y de código abierto de Deque Systems que ofrece pruebas automatizadas de accesibilidad y proporciona informes detallados sobre cualquier problema que se encuentre.
+
+---
+
+## ABOUT
+
+Presentación basada en la librería de JavaScript [revealJS](https://revealjs.com/)

@@ -1,0 +1,64 @@
+---
+title: "Usabilidad"
+author: "José Ángel Heras"
+format: 
+  revealjs:
+    theme: night
+    highlight: pygments
+    center: true
+    transition: slide ## fade
+    tox: true
+    footer: "Desarrollo WEB - Usabilidad"
+---
+
+## Usabilidad digital
+
+**La usabilidad** es un aspecto esencial en el proceso de crear un sitio web (o cualquier producto digital).
+
+> En esencia **la usabilidad** mide la facilidad para acceder y navegar por la página de forma intuitiva, sencilla y rápida.
+
+---
+
+> La **usabilidad** es un concepto transversal, relacionado con la **accesibilidad**, pero que interacciona con aspectos **funcionales** y de **diseño**.
+
+---
+
+### Usabilidad vs. Accesibilidad
+
+![](img/HumanFactors.png){fig-align="center"}
+
+<small>
+
+[Via ResearchGate](https://www.researchgate.net/figure/Concepts-of-accessibility-usability-and-UX-Reproduced-with-permission-from-ISO-9241-11_fig3_344623850)
+
+</small>
+
+------------------------------------------------------------------------
+
+### Tests de Usabilidad
+
+------------------------------------------------------------------------
+
+**El factor humano**
+
+Como sucede con el resto de aspectos dependientes de los *factores humanos*, los tests de [usabilidad Web](https://es.wikipedia.org/wiki/Prueba_de_usabilidad) implican el uso de personas para elaborar informes relevantes, cuantas más mejor.
+
+---
+
+Pruebas de usabilidad habituales
+
+- [Heuristic evaluation](https://en.wikipedia.org/wiki/Heuristic_evaluation) - Aproximación heurística
+- [Cognitive walkthrough](https://en.wikipedia.org/wiki/Cognitive_walkthrough) - Casos de uso
+- [Analítica web](https://es.wikipedia.org/wiki/An%C3%A1lisis_web)
+     - Ejemplo relevante: [Prueba A/B](https://es.wikipedia.org/wiki/Prueba_A/B)
+- [Crowdsourced testing](https://en.wikipedia.org/wiki/Crowdsourced_testing)
+
+<small>
+
+(Enlaces a Wikipedia)
+
+</small>
+
+## ABOUT
+
+Presentación basada en la librería de JavaScript [revealJS](https://revealjs.com/)
